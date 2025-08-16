@@ -6,8 +6,10 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <h1 className="text-2xl font-bold text-primary">
-              Active8Studio
+            <h1 className="text-2xl font-bold">
+              <span className="text-foreground">Active</span>
+              <span className="text-primary">8</span>
+              <span className="text-foreground">Studio</span>
             </h1>
           </div>
           
@@ -23,8 +25,8 @@ const Header = () => {
             </a>
           </nav>
           
-          <Button variant="cta" size="lg">
-            Get Started
+          <Button variant="cta" size="lg" asChild>
+            <a href="/consultation">Get Started</a>
           </Button>
         </div>
       </div>

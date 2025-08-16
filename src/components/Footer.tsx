@@ -42,8 +42,10 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-4 gap-8 mb-12">
           <div className="lg:col-span-1">
-            <h2 className="text-2xl font-bold text-white mb-6">
-              Active8Studio
+            <h2 className="text-2xl font-bold mb-6">
+              <span className="text-white">Active</span>
+              <span className="text-active8-green">8</span>
+              <span className="text-white">Studio</span>
             </h2>
             <p className="text-white/80 mb-6 leading-relaxed">
               Activate your business growth with our comprehensive digital marketing solutions. 
@@ -66,23 +68,41 @@ const Footer = () => {
             </div>
           </div>
           
-          {Object.entries(footerLinks).map(([category, links]) => (
-            <div key={category}>
-              <h3 className="font-semibold text-lg mb-4">{category}</h3>
-              <ul className="space-y-2">
-                {links.map((link, index) => (
-                  <li key={index}>
-                    <a 
-                      href="#" 
-                      className="text-white/80 hover:text-white transition-smooth"
-                    >
-                      {link}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
+          <div>
+            <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              <li>
+                <a href="#services" className="text-white/80 hover:text-white transition-smooth">
+                  Our Services
+                </a>
+              </li>
+              <li>
+                <a href="#about" className="text-white/80 hover:text-white transition-smooth">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="/consultation" className="text-white/80 hover:text-white transition-smooth">
+                  Free Consultation
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-white/80 hover:text-white transition-smooth">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+          <div className="lg:col-span-2">
+            <h3 className="text-lg font-semibold text-white mb-4">Ready to Get Started?</h3>
+            <p className="text-white/80 mb-4">
+              Let's activate your digital growth together. Schedule a free consultation today.
+            </p>
+            <Button variant="hero" size="lg" asChild>
+              <a href="/consultation">Get Your Free Strategy Session</a>
+            </Button>
+          </div>
         </div>
         
         <Separator className="bg-white/20 mb-8" />
