@@ -6,11 +6,9 @@ const Header = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <img 
-              src="/lovable-uploads/13ff8226-36ed-4d69-80a2-a79592abcb57.png" 
-              alt="Active8Studio Logo" 
-              className="h-10 w-auto"
-            />
+            <h1 className="text-2xl font-bold text-primary">
+              Active8Studio
+            </h1>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">

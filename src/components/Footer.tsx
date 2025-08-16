@@ -42,11 +42,9 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="grid lg:grid-cols-4 gap-8 mb-12">
           <div className="lg:col-span-1">
-            <img 
-              src="/lovable-uploads/13ff8226-36ed-4d69-80a2-a79592abcb57.png" 
-              alt="Active8Studio Logo" 
-              className="h-12 w-auto mb-6 brightness-0 invert"
-            />
+            <h2 className="text-2xl font-bold text-white mb-6">
+              Active8Studio
+            </h2>
             <p className="text-white/80 mb-6 leading-relaxed">
               Activate your business growth with our comprehensive digital marketing solutions. 
               We're your strategic partners in digital success.

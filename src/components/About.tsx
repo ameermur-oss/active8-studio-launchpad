@@ -22,10 +22,10 @@ const About = () => {
   ];
 
   const achievements = [
-    "Certified Google Partners",
-    "Facebook Blueprint Certified",
-    "HubSpot Solutions Partner",
-    "5-Star Client Satisfaction"
+    "Google Ads Certified Team",
+    "Facebook Marketing Certified",
+    "Modern Marketing Strategies",
+    "Committed to Your Success"
   ];
 
   return (

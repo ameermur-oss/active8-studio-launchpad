@@ -32,16 +32,16 @@ const Hero = () => {
             <div className="card-gradient rounded-2xl p-8 card-shadow">
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-active8-green mb-2">150+</div>
-                  <div className="text-active8-neutral-light">Happy Clients</div>
+                  <div className="text-3xl font-bold text-active8-green mb-2">Fresh</div>
+                  <div className="text-active8-neutral-light">Perspective</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-active8-green mb-2">300%</div>
-                  <div className="text-active8-neutral-light">Avg ROI Growth</div>
+                  <div className="text-3xl font-bold text-active8-green mb-2">100%</div>
+                  <div className="text-active8-neutral-light">Dedicated</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-xl">
-                  <div className="text-3xl font-bold text-active8-green mb-2">5+</div>
-                  <div className="text-active8-neutral-light">Years Experience</div>
+                  <div className="text-3xl font-bold text-active8-green mb-2">2024</div>
+                  <div className="text-active8-neutral-light">Established</div>
                 </div>
                 <div className="text-center p-6 bg-white rounded-xl">
                   <div className="text-3xl font-bold text-active8-green mb-2">24/7</div>
