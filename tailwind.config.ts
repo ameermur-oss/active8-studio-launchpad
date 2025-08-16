@@ -61,7 +61,18 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				active8: {
+					green: 'hsl(var(--active8-green))',
+					'green-light': 'hsl(var(--active8-green-light))',
+					'green-dark': 'hsl(var(--active8-green-dark))',
+					neutral: 'hsl(var(--active8-neutral))',
+					'neutral-light': 'hsl(var(--active8-neutral-light))',
+					'gray-light': 'hsl(var(--active8-gray-light))'
 				}
+			},
+			fontFamily: {
+				sans: ['Inter', 'system-ui', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
