@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Offer & Contact | Active8 Studio</title>
+  <meta name="description" content="Starter Lead Generation System with local service business-focused Meta ads and follow-up automation.">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./index.html" aria-label="Active8 Studio home">
+        <svg class="brand-mark" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" role="img" aria-hidden="true">
+          <polygon points="10,8 46,28 10,48" fill="#ffffff"></polygon>
+          <g stroke="#a7f3d0" stroke-width="2" stroke-linecap="round">
+            <line x1="0" y1="16" x2="12" y2="16"></line><line x1="0" y1="22" x2="14" y2="22"></line>
+            <line x1="0" y1="28" x2="16" y2="28"></line><line x1="0" y1="34" x2="14" y2="34"></line>
+            <line x1="0" y1="40" x2="12" y2="40"></line>
+          </g>
+        </svg>
+        <span class="brand-text">ACTIVE<span class="eight">8</span><br>STUDIO</span>
+      </a>
+      <nav class="nav">
+        <a class="nav-link" href="./index.html">Home</a>
+        <a class="nav-link" href="./services.html">Services</a>
+        <a class="nav-link" href="./how-it-works.html">How It Works</a>
+        <a class="nav-link active" href="./offer.html">Offer & Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section reveal">
+      <div class="wrap split grid">
+        <article class="offer">
+          <p class="eyebrow">Starter Offer</p>
+          <h2>Starter Lead Generation System</h2>
+          <ul>
+            <li>Custom landing page</li>
+            <li>Meta ad campaign setup</li>
+            <li>Lead capture system</li>
+            <li>Basic automation</li>
+          </ul>
+          <p class="price">Affordable monthly plans starting at $997/month</p>
+          <p class="price">Pay per lead options available</p>
+          <p class="risk">We don't win unless you get leads.</p>
+        </article>
+
+        <article class="panel">
+          <p class="eyebrow">Book a Call</p>
+          <h3>See if this fits your business</h3>
+          <p class="subheadline">Use the quick form and we will contact you, or book directly through Calendly.</p>
+          <div class="form-wrap">
+            <form id="lead-form" aria-label="Lead capture form">
+              <div>
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required autocomplete="name">
+              </div>
+              <div>
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" required autocomplete="tel">
+              </div>
+              <div>
+                <label for="businessType">Business Type</label>
+                <select id="businessType" name="businessType" required>
+                  <option value="">Select your business type</option>
+                  <option>Landscaping</option>
+                  <option>Roofing</option>
+                  <option>General Contractor</option>
+                  <option>Pressure Washing</option>
+                  <option>HVAC</option>
+                  <option>Other Local Service</option>
+                </select>
+              </div>
+              <button class="btn btn-primary" type="submit">Send My Info</button>
+              <p class="form-note">For production: connect this form to your CRM/webhook endpoint.</p>
+              <p id="form-status" class="status" aria-live="polite"></p>
+            </form>
+          </div>
+          <div class="btn-row">
+            <a class="btn btn-ghost" href="https://calendly.com/" target="_blank" rel="noopener noreferrer">Book via Calendly</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="wrap">
+        <p class="eyebrow">FAQ</p>
+        <h2>Answers before you book</h2>
+        <div class="faq">
+          <details>
+            <summary>How long does it take to see results?</summary>
+            <p>Most campaigns start generating early lead data within 7-14 days, then improve as we optimize targeting and creative.</p>
+          </details>
+          <details>
+            <summary>Do I need a website already?</summary>
+            <p>No. We can build the landing page and funnel for you, so you can start capturing leads without a full site rebuild.</p>
+          </details>
+          <details>
+            <summary>What's my ad budget?</summary>
+            <p>Many local service businesses start between $20-$80/day depending on your market and service value.</p>
+          </details>
+          <details>
+            <summary>What if I've tried ads before?</summary>
+            <p>Most failed campaigns miss either conversion-focused pages or consistent follow-up. We fix both, not just ad targeting.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="section reveal">
+      <div class="wrap">
+        <div class="final-cta">
+          <p class="eyebrow">Final Step</p>
+          <h2>Ready to Get More Leads Consistently?</h2>
+          <div class="btn-row" style="justify-content:center;">
+            <a class="btn btn-primary" href="https://calendly.com/" target="_blank" rel="noopener noreferrer">Book Your Free Strategy Call</a>
+          </div>
+          <p class="urgency">Limited spots available for new clients</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><p>Active8 Studio - Local, results-driven, performance-focused digital marketing for service-based businesses.</p></div></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
